@@ -11,6 +11,8 @@ import pic01 from '../assets/images/pic01.jpg'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBasketballBall } from '@fortawesome/free-solid-svg-icons'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
+import { faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons'
 
 class Index extends React.Component {
   constructor(props) {
@@ -70,55 +72,6 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>My Top Games</h2>
-            </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style1 fa-fort-awesome" />
-                <h2>Fortnite</h2>
-                <p>
-                  I'll walk you through survival strategies, where to find the
-                  best loot, and how to use the map's landscape to your
-                  advantage.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-fighter-jet" />
-                <h2>Call of Duty</h2>
-                <p>
-                  Tactical button layouts, class configuration, and maximizing
-                  your kill/death ratio-- I'll teach you how to become a COD
-                  King step by step.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style5 ">
-                  <FontAwesomeIcon
-                    className="icon style5"
-                    icon={faBasketballBall}
-                  />
-                </span>
-                <h2>NBA 2k</h2>
-                <p>
-                  As a lifelong basketball player and avid sports fan, I'll walk
-                  you through techniques that work on the virtual court as well
-                  as the real deal.
-                </p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="second" className="main special">
-            <header className="major">
               <h2>My Services</h2>
               <p>
                 E-sports are the rising star of modern entertainment platforms,
@@ -170,6 +123,73 @@ class Index extends React.Component {
                 </li>
               </ul>
             </footer>
+          </section>
+
+          <section id="second" className="main special">
+            <header className="major">
+              <h2>My Top Games</h2>
+            </header>
+            <ul className="features">
+              <li>
+                <span className="icon major style1 fa-fort-awesome" />
+                <h2>Fortnite</h2>
+                <p>
+                  I'll walk you through survival strategies, where to find the
+                  best loot, and how to use the map's landscape to your
+                  advantage.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style3 fa-fighter-jet" />
+                <h2>Call of Duty</h2>
+                <p>
+                  Tactical button layouts, class configuration, and maximizing
+                  your kill/death ratio-- I'll teach you how to become a COD
+                  King step by step.
+                </p>
+              </li>
+              <li>
+                <span className="major icon style5">
+                  <FontAwesomeIcon class="major" icon={faBasketballBall} />
+                </span>
+                <h2>NBA 2k</h2>
+                <p>
+                  As a lifelong basketball player and avid sports fan, I'll walk
+                  you through techniques that work on the virtual court as well
+                  as the real deal.
+                </p>
+              </li>
+            </ul>
+            <footer className="major" />
+          </section>
+
+          <section id="third" className="main special">
+            <header className="major">
+              <h2>My Services</h2>
+            </header>
+            <ul className="features">
+              <li>
+                <span className="major icon style5">
+                  <FontAwesomeIcon icon={faChalkboardTeacher} />
+                </span>
+                <h2>Book a Session</h2>
+                <p>
+                  Schedule an appointment with me and learn from a professional
+                  gamer one-on-one.
+                </p>
+              </li>
+              <li>
+                <span className="major icon style3">
+                  <FontAwesomeIcon icon={faEye} />
+                </span>
+                <h2>Watch My Tutorials</h2>
+                <p>
+                  Check into my Youtube or a livestream on Twitch to see my
+                  skills in a competitive gaming environment.
+                </p>
+              </li>
+            </ul>
+            <footer className="major" />
           </section>
 
           <section id="cta" className="main special">

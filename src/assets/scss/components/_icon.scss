@@ -22,7 +22,7 @@
     display: none;
   }
 
-  &.major {
+  .major {
     border: solid 1px;
     display: inline-block;
     border-radius: 100%;
@@ -80,7 +80,10 @@
   @include breakpoint(xlarge) {
     &.major {
       &:before {
-        font-size: 5.5rem;
+        font-size: 5rem;
+      }
+      &:nth-child(1) {
+        font-size: 5.1rem;
       }
     }
   }
@@ -88,6 +91,9 @@
   @include breakpoint(large) {
     &.major {
       &:before {
+        font-size: 4.75rem;
+      }
+      &:nth-child(1) {
         font-size: 4.75rem;
       }
     }
@@ -99,6 +105,9 @@
       padding: 0.35em;
 
       &:before {
+        font-size: 3.5rem;
+      }
+      &:nth-child(1) {
         font-size: 3.5rem;
       }
     }

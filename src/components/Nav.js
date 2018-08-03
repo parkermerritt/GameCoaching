@@ -16,11 +16,16 @@ const Nav = props => (
       </li>
       <li>
         <Scroll type="id" element="first">
-          <a href="#">My Games</a>
+          <a href="#">Why E-Sports?</a>
         </Scroll>
       </li>
       <li>
         <Scroll type="id" element="second">
+          <a href="#">My Games</a>
+        </Scroll>
+      </li>
+      <li>
+        <Scroll type="id" element="third">
           <a href="#">My Services</a>
         </Scroll>
       </li>
