@@ -199,12 +199,12 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button special">
+                  <Link to="/" className="button special">
                     Book Now
                   </Link>
                 </li>
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="/" className="button">
                     Subscribe
                   </Link>
                 </li>
