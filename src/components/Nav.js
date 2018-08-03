@@ -16,7 +16,7 @@ const Nav = props => (
       </li>
       <li>
         <Scroll type="id" element="first">
-          <a href="#">Why E-Sports?</a>
+          <a href="#">Why eSports?</a>
         </Scroll>
       </li>
       <li>

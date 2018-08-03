@@ -9,7 +9,7 @@ const Footer = props => (
       <h2>Still Have Questions?</h2>
       <p>
         Feel free to shoot me an email about my services, favorite games, or the
-        e-sports industry in general!
+        eSports industry in general!
       </p>
     </section>
     <section>

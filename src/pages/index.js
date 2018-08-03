@@ -72,9 +72,9 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Why E-Sports?</h2>
+              <h2>Why eSports?</h2>
               <p>
-                E-sports are the rising star of modern entertainment platforms,
+                eSports are the rising star of modern entertainment platforms,
                 and gamers are flocking to monetize their skills through
                 sponsorships and tournaments. Schedule an appointment with me to
                 get started on your own gaming career.
