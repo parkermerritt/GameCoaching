@@ -1,6 +1,6 @@
-# gatsby-starter-stellar
+# The Joystick Clinic
 
-Site advertising the services of an E-Sports Coach.
+Site advertising the services of a freelance E-Sports Coach.
 
 ## Preview
 

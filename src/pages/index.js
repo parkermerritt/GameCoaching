@@ -10,9 +10,7 @@ import pic01 from '../assets/images/pic01.jpg'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
-
-library.add(faStroopwafel)
+import { faBasketballBall } from '@fortawesome/free-solid-svg-icons'
 
 class Index extends React.Component {
   constructor(props) {
@@ -48,7 +46,7 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>They Call Me E-Rock,</h2>
+                  <h2>Gamers Call Me E-Rock</h2>
                 </header>
                 <p>
                   But you can call me Eric Moreno. I'm a health science graduate
@@ -94,13 +92,17 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5">
-                  <FontAwesomeIcon className="icon style5" icon="stroopwafel" />
+                <span className="icon major style5 ">
+                  <FontAwesomeIcon
+                    className="icon style5"
+                    icon={faBasketballBall}
+                  />
                 </span>
                 <h2>NBA 2k</h2>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  As a lifelong basketball player and avid sports fan, I'll walk
+                  you through techniques that work on the virtual court as well
+                  as the real deal.
                 </p>
               </li>
             </ul>
