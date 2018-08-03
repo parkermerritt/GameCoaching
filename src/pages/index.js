@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBasketballBall } from '@fortawesome/free-solid-svg-icons'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
 import { faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 class Index extends React.Component {
   constructor(props) {
@@ -48,13 +49,14 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Gamers Call Me E-Rock</h2>
+                  <h2>Gamers Call Me E-Rock,</h2>
                 </header>
                 <p>
                   But you can call me Eric Moreno. I'm a health science graduate
                   with nearly a decade of competitive gaming experience under my
                   belt. I excel especially at first person shooters and sports
-                  games.
+                  games, and I'm comfortable on a variety of different consoles
+                  and platforms.
                 </p>
               </div>
               <span className="image">
@@ -156,8 +158,8 @@ class Index extends React.Component {
                 </span>
                 <h2>Book a Session</h2>
                 <p>
-                  Schedule an appointment with me and learn from a professional
-                  gamer one-on-one.
+                  Schedule an exclusive appointment with me and learn from a
+                  professional gamer one-on-one.
                 </p>
               </li>
               <li>
@@ -168,6 +170,16 @@ class Index extends React.Component {
                 <p>
                   Check into my Youtube or a livestream on Twitch to see my
                   skills in a competitive gaming environment.
+                </p>
+              </li>
+              <li>
+                <span className="major icon style1">
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </span>
+                <h2>Subscribe for News</h2>
+                <p>
+                  Each week I'll send out an update about my latest techniques,
+                  strategies, and insights-- be sure to subscribe below!
                 </p>
               </li>
             </ul>
