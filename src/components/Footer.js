@@ -16,10 +16,10 @@ const Footer = props => (
       <h2>Contact</h2>
       <dl className="alt">
         <dt>Phone</dt>
-        <dd>(000) 000-0000 x 0000</dd>
+        <dd>(407) 791-4564</dd>
         <dt>Email</dt>
         <dd>
-          <a href="#">information@untitled.tld</a>
+          <a href="#">Ericmoreno1011@gmail.com</a>
         </dd>
       </dl>
       <ul className="icons">
