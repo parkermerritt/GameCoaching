@@ -49,14 +49,15 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Gamers Call Me E-Rock,</h2>
+                  <h2>Most Gamers Call Me E-Rock,</h2>
                 </header>
                 <p>
-                  But you can call me Eric Moreno. I'm a health science graduate
-                  with nearly a decade of competitive gaming experience under my
-                  belt. I excel especially at first person shooters and sports
-                  games, and I'm comfortable on a variety of different consoles
-                  and platforms.
+                  But feel free to call me Eric Moreno. I'm a health science
+                  graduate with nearly a decade of competitive gaming experience
+                  under my belt. I excel especially at first person shooters and
+                  sports games, and I'm comfortable on a variety of different
+                  consoles and platforms. For this reason, I have a passion for
+                  coaching other gamers in the growing e-sports industry.
                 </p>
               </div>
               <span className="image">
