@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Stellar by HTML5 UP',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js Starter based on Stellar by HTML5 UP',
+    title: 'Joystick Clinic',
+    author: 'Parker Merritt',
+    description: 'E-sports coaching and tutorials.',
   },
-  pathPrefix: '/GameCoaching',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
