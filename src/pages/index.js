@@ -50,15 +50,18 @@ class Index extends React.Component {
               <div className="content">
                 <header className="major">
                   <h2>Diagnose Your Gaming Style</h2>
+                  <h4>Eric Moreno, eSports Coach</h4>
                 </header>
                 <p>
-                  Most gamers call me "E-Rock," but feel free to call me Eric
-                  Moreno. I'm a health science graduate with nearly a decade of
-                  competitive gaming experience under my belt. I especially
-                  excel at first person shooters and sports games, and I'm
-                  comfortable on a variety of consoles and platforms. For this
-                  reason, I have a passion for coaching other gamers in the
-                  growing e-sports industry.
+                  My name is Eric, or as most of the gaming community knows me,
+                  "E-Rock." With over a decade of competitive gaming experience
+                  under my belt, I've built up a considerable amount of skill in
+                  the eSports domain. Beyond gaming, I also hold a degree in
+                  health science, and my years spent observing patients have
+                  sharpened my ability to analyze human behavior. For this
+                  reason, I've developed capabilities particularly suited for
+                  coaching other gamers, an invaluable skill set in the wake of
+                  a growing eSports industry.
                 </p>
               </div>
               <span className="image">
